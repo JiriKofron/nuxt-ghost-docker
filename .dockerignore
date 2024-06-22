@@ -1,0 +1,13 @@
+/.nuxt
+/.output
+/node_modules
+
+.gitignore
+README.md
+
+.env
+.idea
+
+frontend/.pnpm-store/*
+frontend/.nuxt/*
+frontend/node_modules
