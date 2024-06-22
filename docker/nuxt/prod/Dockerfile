@@ -4,7 +4,7 @@ FROM node:22-bookworm-slim
 # Create app directory
 WORKDIR /usr/src/app
 
-# Copy package.json and package-lock.json
+# Copy all files
 COPY ./frontend .
 
 # Install app dependencies
