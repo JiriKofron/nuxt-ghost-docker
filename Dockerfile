@@ -13,6 +13,11 @@ RUN pnpm install
 # Copy all files
 COPY ./frontend .
 
+EXPOSE 8080
+
+ENV HOST=0.0.0.0
+ENV PORT=8080
+
 # Build the Nuxt.js app
 RUN pnpm run build
 
