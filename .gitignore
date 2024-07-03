@@ -1,1 +1,6 @@
 .env
+.DS_STORE
+.idea
+/frontend/node_modules
+/frontend/.vscode
+/frontend/dist
